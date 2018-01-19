@@ -14,7 +14,7 @@ public class CodeBatTester
        dosomething();
       // String str = codebat.delDel("adelHello");
 //      boolean bool = codebat.mixStart("mix snakes");
-      String str = codebat.startOz("ozymandias");
+      String str = codebat.startOz("pana");
       System.out.println(str);
 
    }

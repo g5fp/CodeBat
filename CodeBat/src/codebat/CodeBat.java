@@ -51,7 +51,16 @@ public class CodeBat {
 		return false;
 	}
 	public String startOz(String str) {
-		  return str;
+		String str2="";
+		if (str.length()<2) return str;
+		if (str.substring(0,1).equals("o")) {
+			str2 = str.substring(0,1);
+		}
+		if (str.substring(1, 2).equals("z")) {
+			str2 = str2 + str.substring(1,2);
+		}
+		
+		  return str2;
 	}
 
 }
